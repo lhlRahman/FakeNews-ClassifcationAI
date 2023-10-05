@@ -3,7 +3,7 @@ import pandas as pd
 from cohere.responses.classify import Example
 
 # Initialize the Cohere client with your API key
-co = cohere.Client('Your API key')
+co = cohere.Client('YOUR_API_KEY')
 
 # Define your input title
 input_title = str(input("Enter your news title: "))
